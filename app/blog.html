@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MY GREEN LIFE | Blog</title>
+  <meta name="description" content="Stories and updates from My Green Life.">
+  <meta name="theme-color" content="#2e7d32">
+  <link rel="icon" type="image/png" sizes="32x32" href="fav-image.png">
+  <link rel="apple-touch-icon" href="fav-image.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html#top" class="brand" aria-label="My Green Life Home">
+        <img src="fav-image.png" alt="My Green Life" class="logo" />
+        <span class="brand-text">MY GREEN LIFE</span>
+      </a>
+      <nav class="nav" aria-label="Primary">
+        <button id="navToggle" class="nav-toggle" aria-expanded="false" aria-controls="primaryNav">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+        <ul id="primaryNav" class="nav-list">
+          <li><a href="index.html#vision">About</a></li>
+          <li><a href="index.html#calc">Ingredients</a></li>
+          <li><a href="index.html#different">Why My Green Life</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="section">
+    <div class="container">
+      <h1>Blog</h1>
+      <p class="muted">Read the latest stories and updates. Use tags to explore related posts.</p>
+
+      <div class="blog-controls">
+        <div class="blog-search">
+          <input id="blogSearch" type="search" placeholder="Search posts..." autocomplete="off">
+        </div>
+        <div id="blogTags" class="blog-tags"></div>
+      </div>
+
+      <div id="blogList" class="blog-list" aria-live="polite"></div>
+      <article id="blogDetail" class="blog-detail hidden" aria-live="polite"></article>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> MY GREEN LIFE. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="index.html#vision">Vision</a>
+        <a href="index.html#different">Why My Green Life</a>
+        <a href="index.html#contact">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="blog.js" defer></script>
+</body>
+</html>

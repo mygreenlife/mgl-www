@@ -1,0 +1,602 @@
+{
+  "ingredients": [
+    {
+      "name": "Alcohol Ethoxylate",
+      "slug": "alcohol-ethoxylate",
+      "aliases": [
+        "C9-11 Alcohol Ethoxylate 6 Mole"
+      ],
+      "description": "Non‑ionic surfactant used to remove grease and oily soils; improves wetting and detergency.",
+      "id": "ing_alcohol-ethoxylate"
+    },
+    {
+      "name": "Aqua",
+      "slug": "aqua",
+      "aliases": [],
+      "description": "Aqua (H2O) is a universal solvent in cosmetics. It is naturally combined with thick ingredients like oils and butters to form lotions and creams. In skin care, aqua dissolves these ingredients and facilitates the making of lighter products that can be applied evenly and rinsed off with ease.",
+      "id": "ing_aqua"
+    },
+    {
+      "name": "Argan Oil",
+      "slug": "argan-oil",
+      "aliases": [
+        "Argania Spinosa Kernel Oil"
+      ],
+      "description": "Non‑fragrant plant oil rich in fatty acids and tocopherols; conditions skin and hair and adds emollience.",
+      "id": "ing_argan-oil"
+    },
+    {
+      "name": "Carboxymethyl Cellulose",
+      "slug": "carboxymethyl-cellulose",
+      "aliases": [
+        "CMC",
+        "Sodium Carboxymethylcellulose"
+      ],
+      "description": "Cellulose‑derived polymer that thickens, suspends and helps prevent soil redeposition in detergents.",
+      "id": "ing_carboxymethyl-cellulose"
+    },
+    {
+      "name": "Carnauba Wax",
+      "slug": "carnauba-wax",
+      "aliases": [],
+      "description": "Hard natural wax from Copernicia prunifera leaves; adds gloss and structure and helps with film formation.",
+      "id": "ing_carnauba-wax"
+    },
+    {
+      "name": "Cetearyl Alcohol",
+      "slug": "cetearyl-alcohol",
+      "aliases": [
+        "Cetostearyl Alcohol"
+      ],
+      "description": "A fatty alcohol blend (cetyl + stearyl) that thickens and stabilises emulsions and improves slip.",
+      "id": "ing_cetearyl-alcohol"
+    },
+    {
+      "name": "Cetyl Alcohol",
+      "slug": "cetyl-alcohol",
+      "aliases": [],
+      "description": "Cetyl Alcohol is a universal ingredient in haircare products made from vegetable oil such as palm or coconut oil. It has an added ability to retain moisture, improve texture, and combat common hair woes like frizz and tangles.",
+      "id": "ing_cetyl-alcohol"
+    },
+    {
+      "name": "Cocamidopropyl Betaine",
+      "slug": "cocamidopropyl-betaine",
+      "aliases": [],
+      "description": "(CAPB) is a surfactant derived from coconut oil. It is also a foam enhancer and is used in numerous personal care products like shampoos, conditioners, body washes, mouthwashes, cleansers, etc.",
+      "id": "ing_cocamidopropyl-betaine"
+    },
+    {
+      "name": "Coco Caprylate",
+      "slug": "coco-caprylate",
+      "aliases": [],
+      "description": "Coco Caprylate is a natural emollient and skin conditioning agent derived from coconut oil. It is commonly used in preparations as a lightweight alternative to mineral oil or silicones, providing a silky, non-greasy feel to the skin.",
+      "id": "ing_coco-caprylate"
+    },
+    {
+      "name": "Glyceryl Caprylate",
+      "slug": "glyceryl-caprylate",
+      "aliases": [],
+      "description": "Glyceryl Caprylate is an emollient and conditioning agent derived from glycerin and caprylic acid. It acts as a moisturiser and skin-conditioning agent, helping to soften and hydrate the skin. The antimicrobial properties found in the Glyceryl Caprylate help preserve the product.",
+      "id": "ing_glyceryl-caprylate"
+    },
+    {
+      "name": "Grapeseed Oil",
+      "slug": "grapeseed-oil",
+      "aliases": [
+        "Vitis Vinifera (Grapeseed) Oil",
+        "Vitis Vinifera Oil"
+      ],
+      "description": "Light, fast‑absorbing oil from Vitis vinifera seeds; antioxidant‑rich and skin‑conditioning.",
+      "id": "ing_grapeseed-oil"
+    },
+    {
+      "name": "Hydrogen Peroxide",
+      "slug": "hydrogen-peroxide",
+      "aliases": [],
+      "description": "Oxygen‑based oxidiser/bleach that removes stains and provides antimicrobial action; water‑safe when used correctly.",
+      "id": "ing_hydrogen-peroxide"
+    },
+    {
+      "name": "Peroxide Stabiliser",
+      "slug": "peroxide-stabiliser",
+      "aliases": [
+        "Peroxide Stabilizer"
+      ],
+      "description": "Stabilising blend used to maintain hydrogen peroxide activity and shelf life in oxygen‑based bleaches.",
+      "id": "ing_peroxide-stabiliser"
+    },
+    {
+      "name": "Polyglyceryl-6 Palmitate/Succinate",
+      "slug": "polyglyceryl-6-palmitatesuccinate",
+      "aliases": [
+        "Polyglyceryl 6 Palmitate Succinate"
+      ],
+      "description": "A PEG‑free emulsifier and skin‑conditioning agent based on polyglycerin; helps form stable oil‑in‑water emulsions.",
+      "id": "ing_polyglyceryl-6-palmitatesuccinate"
+    },
+    {
+      "name": "Sodium Anisate",
+      "slug": "sodium-anisate",
+      "aliases": [
+        "Anisic Acid Sodium Salt"
+      ],
+      "description": "A nature‑identical preservative salt of anisic acid (from fennel/anise); supports antimicrobial protection and pH buffering.",
+      "id": "ing_sodium-anisate"
+    },
+    {
+      "name": "Sodium Metasilicate",
+      "slug": "sodium-metasilicate",
+      "aliases": [
+        "Disodium Metasilicate"
+      ],
+      "description": "Alkaline builder that boosts cleaning, sequesters hardness ions and supports surfactant performance.",
+      "id": "ing_sodium-metasilicate"
+    },
+    {
+      "name": "Sodium Olefin Sulphonate",
+      "slug": "sodium-olefin-sulphonate",
+      "aliases": [
+        "Sodium C14-16 Olefin Sulfonate",
+        "Alpha Olefin Sulfonate"
+      ],
+      "description": "High‑foaming anionic surfactant (often coconut‑derived) used for deep cleaning in detergents and shampoos.",
+      "id": "ing_sodium-olefin-sulphonate"
+    }
+  ],
+  "products": [
+    {
+      "id": "prd_dish_liquid",
+      "slug": "dishwashing-liquid",
+      "name": "Dishwashing Liquid",
+      "category": "Cleaning",
+      "tags": [
+        "kitchen"
+      ]
+    },
+    {
+      "id": "prd_all_purpose_cleaner",
+      "slug": "all-purpose-cleaner",
+      "name": "All Purpose Cleaner",
+      "category": "Cleaning",
+      "tags": [
+        "multi-surface"
+      ]
+    },
+    {
+      "id": "prd_window_cleaner",
+      "slug": "window-cleaner",
+      "name": "Window Cleaner",
+      "category": "Cleaning",
+      "tags": [
+        "glass"
+      ]
+    },
+    {
+      "id": "prd_oven_cleaner",
+      "slug": "oven-cleaner",
+      "name": "Oven Cleaner",
+      "category": "Cleaning",
+      "tags": [
+        "degreaser"
+      ]
+    },
+    {
+      "id": "prd_drain_enzyme_cleaner",
+      "slug": "drain-enzyme-cleaner",
+      "name": "Drain & Enzyme Cleaner",
+      "category": "Cleaning",
+      "tags": [
+        "enzymatic"
+      ]
+    },
+    {
+      "id": "prd_bathroom_cleaner",
+      "slug": "bathroom-toilet-cleaner",
+      "name": "Bathroom & Toilet Cleaner",
+      "category": "Cleaning",
+      "tags": [
+        "bathroom"
+      ]
+    },
+    {
+      "id": "prd_tile_floor_cleaner",
+      "slug": "tile-floor-cleaner",
+      "name": "Tile & Floor Cleaner",
+      "category": "Cleaning",
+      "tags": [
+        "floor"
+      ]
+    },
+    {
+      "id": "prd_sanitiser",
+      "slug": "sanitiser",
+      "name": "Sanitiser",
+      "category": "Cleaning",
+      "tags": [
+        "disinfectant"
+      ]
+    },
+    {
+      "id": "prd_washing_powder",
+      "slug": "washing-powder",
+      "name": "Washing Powder",
+      "category": "Laundry",
+      "tags": [
+        "powder"
+      ]
+    },
+    {
+      "id": "prd_auto_dish_powder",
+      "slug": "auto-dishwashing-powder",
+      "name": "Auto Dishwashing Powder",
+      "category": "Laundry",
+      "tags": [
+        "dishwasher"
+      ]
+    },
+    {
+      "id": "prd_fabric_softener",
+      "slug": "fabric-softener",
+      "name": "Fabric Softener",
+      "category": "Laundry",
+      "tags": [
+        "softener"
+      ]
+    },
+    {
+      "id": "prd_bleach_powder",
+      "slug": "bleach-powder",
+      "name": "Bleach Powder",
+      "category": "Laundry",
+      "tags": [
+        "oxygen-bleach"
+      ]
+    },
+    {
+      "id": "prd_shampoo",
+      "slug": "shampoo",
+      "name": "Shampoo",
+      "category": "Personal Care",
+      "tags": [
+        "hair"
+      ]
+    },
+    {
+      "id": "prd_conditioner",
+      "slug": "conditioner",
+      "name": "Conditioner",
+      "category": "Personal Care",
+      "tags": [
+        "hair"
+      ]
+    },
+    {
+      "id": "prd_shower_gel",
+      "slug": "shower-gel",
+      "name": "Shower Gel",
+      "category": "Personal Care",
+      "tags": [
+        "body-wash"
+      ]
+    },
+    {
+      "id": "prd_hand_soap",
+      "slug": "hand-soap",
+      "name": "Hand Soap",
+      "category": "Personal Care",
+      "tags": [
+        "hand"
+      ]
+    },
+    {
+      "id": "prd_body_lotion",
+      "slug": "body-lotion",
+      "name": "Body Lotion",
+      "category": "Personal Care",
+      "tags": [
+        "moisturiser"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "product_id": "prd_dish_liquid",
+      "ingredient_id": "ing_aqua"
+    },
+    {
+      "product_id": "prd_dish_liquid",
+      "ingredient_id": "ing_cocamidopropyl-betaine"
+    },
+    {
+      "product_id": "prd_all_purpose_cleaner",
+      "ingredient_id": "ing_aqua"
+    },
+    {
+      "product_id": "prd_all_purpose_cleaner",
+      "ingredient_id": "ing_alcohol-ethoxylate"
+    },
+    {
+      "product_id": "prd_window_cleaner",
+      "ingredient_id": "ing_aqua"
+    },
+    {
+      "product_id": "prd_oven_cleaner",
+      "ingredient_id": "ing_aqua"
+    },
+    {
+      "product_id": "prd_oven_cleaner",
+      "ingredient_id": "ing_alcohol-ethoxylate"
+    },
+    {
+      "product_id": "prd_oven_cleaner",
+      "ingredient_id": "ing_sodium-metasilicate"
+    },
+    {
+      "product_id": "prd_drain_enzyme_cleaner",
+      "ingredient_id": "ing_aqua"
+    },
+    {
+      "product_id": "prd_bathroom_cleaner",
+      "ingredient_id": "ing_aqua"
+    },
+    {
+      "product_id": "prd_tile_floor_cleaner",
+      "ingredient_id": "ing_aqua"
+    },
+    {
+      "product_id": "prd_tile_floor_cleaner",
+      "ingredient_id": "ing_sodium-metasilicate"
+    },
+    {
+      "product_id": "prd_sanitiser",
+      "ingredient_id": "ing_aqua"
+    },
+    {
+      "product_id": "prd_washing_powder",
+      "ingredient_id": "ing_sodium-metasilicate"
+    },
+    {
+      "product_id": "prd_washing_powder",
+      "ingredient_id": "ing_carboxymethyl-cellulose"
+    },
+    {
+      "product_id": "prd_auto_dish_powder",
+      "ingredient_id": "ing_sodium-metasilicate"
+    },
+    {
+      "product_id": "prd_fabric_softener",
+      "ingredient_id": "ing_aqua"
+    },
+    {
+      "product_id": "prd_fabric_softener",
+      "ingredient_id": "ing_glyceryl-caprylate"
+    },
+    {
+      "product_id": "prd_bleach_powder",
+      "ingredient_id": "ing_hydrogen-peroxide"
+    },
+    {
+      "product_id": "prd_bleach_powder",
+      "ingredient_id": "ing_peroxide-stabiliser"
+    },
+    {
+      "product_id": "prd_shampoo",
+      "ingredient_id": "ing_aqua"
+    },
+    {
+      "product_id": "prd_shampoo",
+      "ingredient_id": "ing_cocamidopropyl-betaine"
+    },
+    {
+      "product_id": "prd_shampoo",
+      "ingredient_id": "ing_sodium-olefin-sulphonate"
+    },
+    {
+      "product_id": "prd_conditioner",
+      "ingredient_id": "ing_aqua"
+    },
+    {
+      "product_id": "prd_conditioner",
+      "ingredient_id": "ing_cetearyl-alcohol"
+    },
+    {
+      "product_id": "prd_conditioner",
+      "ingredient_id": "ing_cetyl-alcohol"
+    },
+    {
+      "product_id": "prd_conditioner",
+      "ingredient_id": "ing_coco-caprylate"
+    },
+    {
+      "product_id": "prd_conditioner",
+      "ingredient_id": "ing_glyceryl-caprylate"
+    },
+    {
+      "product_id": "prd_shower_gel",
+      "ingredient_id": "ing_aqua"
+    },
+    {
+      "product_id": "prd_shower_gel",
+      "ingredient_id": "ing_cocamidopropyl-betaine"
+    },
+    {
+      "product_id": "prd_hand_soap",
+      "ingredient_id": "ing_aqua"
+    },
+    {
+      "product_id": "prd_hand_soap",
+      "ingredient_id": "ing_cocamidopropyl-betaine"
+    },
+    {
+      "product_id": "prd_body_lotion",
+      "ingredient_id": "ing_aqua"
+    },
+    {
+      "product_id": "prd_body_lotion",
+      "ingredient_id": "ing_cetearyl-alcohol"
+    },
+    {
+      "product_id": "prd_body_lotion",
+      "ingredient_id": "ing_cetyl-alcohol"
+    },
+    {
+      "product_id": "prd_body_lotion",
+      "ingredient_id": "ing_argan-oil"
+    },
+    {
+      "product_id": "prd_body_lotion",
+      "ingredient_id": "ing_coco-caprylate"
+    },
+    {
+      "product_id": "prd_body_lotion",
+      "ingredient_id": "ing_glyceryl-caprylate"
+    }
+  ],
+  "indexes": {
+    "byIngredient": {
+      "ing_aqua": [
+        "prd_dish_liquid",
+        "prd_all_purpose_cleaner",
+        "prd_window_cleaner",
+        "prd_oven_cleaner",
+        "prd_drain_enzyme_cleaner",
+        "prd_bathroom_cleaner",
+        "prd_tile_floor_cleaner",
+        "prd_sanitiser",
+        "prd_fabric_softener",
+        "prd_shampoo",
+        "prd_conditioner",
+        "prd_shower_gel",
+        "prd_hand_soap",
+        "prd_body_lotion"
+      ],
+      "ing_cocamidopropyl-betaine": [
+        "prd_dish_liquid",
+        "prd_shampoo",
+        "prd_shower_gel",
+        "prd_hand_soap"
+      ],
+      "ing_alcohol-ethoxylate": [
+        "prd_all_purpose_cleaner",
+        "prd_oven_cleaner"
+      ],
+      "ing_sodium-metasilicate": [
+        "prd_oven_cleaner",
+        "prd_tile_floor_cleaner",
+        "prd_washing_powder",
+        "prd_auto_dish_powder"
+      ],
+      "ing_carboxymethyl-cellulose": [
+        "prd_washing_powder"
+      ],
+      "ing_glyceryl-caprylate": [
+        "prd_fabric_softener",
+        "prd_conditioner",
+        "prd_body_lotion"
+      ],
+      "ing_hydrogen-peroxide": [
+        "prd_bleach_powder"
+      ],
+      "ing_peroxide-stabiliser": [
+        "prd_bleach_powder"
+      ],
+      "ing_sodium-olefin-sulphonate": [
+        "prd_shampoo"
+      ],
+      "ing_cetearyl-alcohol": [
+        "prd_conditioner",
+        "prd_body_lotion"
+      ],
+      "ing_cetyl-alcohol": [
+        "prd_conditioner",
+        "prd_body_lotion"
+      ],
+      "ing_coco-caprylate": [
+        "prd_conditioner",
+        "prd_body_lotion"
+      ],
+      "ing_argan-oil": [
+        "prd_body_lotion"
+      ]
+    },
+    "byProduct": {
+      "prd_dish_liquid": [
+        "ing_aqua",
+        "ing_cocamidopropyl-betaine"
+      ],
+      "prd_all_purpose_cleaner": [
+        "ing_aqua",
+        "ing_alcohol-ethoxylate"
+      ],
+      "prd_window_cleaner": [
+        "ing_aqua"
+      ],
+      "prd_oven_cleaner": [
+        "ing_aqua",
+        "ing_alcohol-ethoxylate",
+        "ing_sodium-metasilicate"
+      ],
+      "prd_drain_enzyme_cleaner": [
+        "ing_aqua"
+      ],
+      "prd_bathroom_cleaner": [
+        "ing_aqua"
+      ],
+      "prd_tile_floor_cleaner": [
+        "ing_aqua",
+        "ing_sodium-metasilicate"
+      ],
+      "prd_sanitiser": [
+        "ing_aqua"
+      ],
+      "prd_washing_powder": [
+        "ing_sodium-metasilicate",
+        "ing_carboxymethyl-cellulose"
+      ],
+      "prd_auto_dish_powder": [
+        "ing_sodium-metasilicate"
+      ],
+      "prd_fabric_softener": [
+        "ing_aqua",
+        "ing_glyceryl-caprylate"
+      ],
+      "prd_bleach_powder": [
+        "ing_hydrogen-peroxide",
+        "ing_peroxide-stabiliser"
+      ],
+      "prd_shampoo": [
+        "ing_aqua",
+        "ing_cocamidopropyl-betaine",
+        "ing_sodium-olefin-sulphonate"
+      ],
+      "prd_conditioner": [
+        "ing_aqua",
+        "ing_cetearyl-alcohol",
+        "ing_cetyl-alcohol",
+        "ing_coco-caprylate",
+        "ing_glyceryl-caprylate"
+      ],
+      "prd_shower_gel": [
+        "ing_aqua",
+        "ing_cocamidopropyl-betaine"
+      ],
+      "prd_hand_soap": [
+        "ing_aqua",
+        "ing_cocamidopropyl-betaine"
+      ],
+      "prd_body_lotion": [
+        "ing_aqua",
+        "ing_cetearyl-alcohol",
+        "ing_cetyl-alcohol",
+        "ing_argan-oil",
+        "ing_coco-caprylate",
+        "ing_glyceryl-caprylate"
+      ]
+    }
+  },
+  "meta": {
+    "version": 1,
+    "generated_at": "2025-09-23T20:55:24Z",
+    "source": "Ingredients page + MGL notes (best-effort mapping)"
+  }
+}
