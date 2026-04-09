@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MY GREEN LIFE | Products</title>
+  <meta name="description" content="Browse the My Green Life product gallery.">
+  <meta name="theme-color" content="#2e7d32">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/branding/fav-image.png">
+  <link rel="apple-touch-icon" href="images/branding/fav-image.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html#top" class="brand" aria-label="My Green Life Home">
+        <img src="images/branding/fav-image.png" alt="My Green Life" class="logo" />
+        <span class="brand-text">MY GREEN LIFE</span>
+      </a>
+      <nav class="nav" aria-label="Primary">
+        <button id="navToggle" class="nav-toggle" aria-expanded="false" aria-controls="primaryNav">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+        <ul id="primaryNav" class="nav-list">
+          <li><a href="index.html#vision">About</a></li>
+          <li><a href="index.html#calc">Ingredients</a></li>
+          <li><a href="products.html" aria-current="page">Products</a></li>
+          <li><a href="index.html#different">Why My Green Life</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="section">
+    <div class="container">
+      <h1>Product Gallery</h1>
+      <p class="muted">Browse our current product packshots. Use category filters or search to narrow the view.</p>
+
+      <div class="gallery-controls">
+        <div class="gallery-search">
+          <input id="gallerySearch" type="search" placeholder="Search category, line, filename..." autocomplete="off">
+        </div>
+        <div id="galleryFilters" class="gallery-filters"></div>
+      </div>
+
+      <p id="galleryCount" class="muted gallery-count">Loading photos...</p>
+      <div id="galleryGrid" class="gallery-grid" aria-live="polite"></div>
+    </div>
+  </main>
+
+  <dialog id="imageModal" class="image-modal">
+    <button id="imageModalClose" class="image-modal-close" type="button" aria-label="Close preview">×</button>
+    <img id="imageModalImg" src="" alt="">
+    <p id="imageModalCaption"></p>
+  </dialog>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> MY GREEN LIFE. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="index.html#vision">Vision</a>
+        <a href="products.html">Products</a>
+        <a href="index.html#different">Why My Green Life</a>
+        <a href="index.html#contact">Contact</a>
+        <a href="terms.html">Terms and Conditions</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+  <script src="products.js" defer></script>
+</body>
+</html>

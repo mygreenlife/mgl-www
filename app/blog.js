@@ -15,15 +15,13 @@
   function cleanupPath(p) {
     let out = String(p || '');
     // strip leading domain if somehow remains
-    out = out.replace(/^https?:\/\/[^\s]+\/(images\/)?/i, (m, grp) => grp ? 'images/' : '');
-    // remove leading slash
+    out = out.replace(/^https?:\/\/[^\s]+\/(?:images\/)?/i, '');
+    // normalize leading slashes and prefixes
     if (out.startsWith('/')) out = out.slice(1);
-    // collapse duplicate segments and double slashes
-    while (out.includes('images//')) out = out.replace('images//', 'images/');
-    while (out.includes('images/images/')) out = out.replace('images/images/', 'images/');
-    // ensure images prefix
-    if (!out.startsWith('images/')) out = `images/${out}`;
-    return out;
+    out = out.replace(/^images\/+/, '');
+    out = out.replace(/^blogs\/+/, '');
+    while (out.includes('//')) out = out.replace('//', '/');
+    return `images/blogs/${out}`;
   }
 
   function getLocalImagePath(filenameOrUrl) {
