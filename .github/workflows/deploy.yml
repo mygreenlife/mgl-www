@@ -4,7 +4,7 @@ on:
   push:
     branches: [ "main" ]
     paths:
-      - "app/files/**"
+      - "app/**"
       - ".github/workflows/deploy.yml"
 
 jobs:
@@ -25,9 +25,9 @@ jobs:
           chmod 600 ~/.ssh/id_ed25519
           ssh-keyscan -p ${{ secrets.CPANEL_PORT }} ${{ secrets.CPANEL_HOST }} >> ~/.ssh/known_hosts
 
-      - name: Deploy app/files to public_html
+      - name: Deploy app contents to public_html
         run: |
           rsync -avz --delete \
             -e "ssh -p ${{ secrets.CPANEL_PORT }} -i ~/.ssh/id_ed25519" \
-            app/files/ \
+            app/ \
             ${{ secrets.CPANEL_USER }}@${{ secrets.CPANEL_HOST }}:public_html/
